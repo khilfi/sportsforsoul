@@ -11,15 +11,13 @@
       .eq($item)
       .addClass("on");
   }
-  var $autoTransition = setInterval(transitionSlide, 30000);
+
 
   $(".accordion figure").click(function() {
-    clearInterval($autoTransition);
     $item = $(this).index();
     $(".accordion figure").removeClass("on");
     $(".accordion figure")
       .eq($item)
       .addClass("on");
-    $autoTransition = setInterval(transitionSlide, 30000);
   });
 });
