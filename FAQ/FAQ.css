@@ -16,7 +16,13 @@ body {
 
 .page {
   max-width: 1250px;
-  margin: 0 auto 30px auto;}
+  margin: 0 auto 0px auto;}
+
+@media screen only (max-width: 1250px) {
+  .page {
+    max-width: 100%;
+  }
+}
 
 .panel {
   background-color: #fff;
@@ -37,6 +43,7 @@ button {
   text-align: center;
   padding-top: 100px;
 }
+
 
 /********** TYPOGRAPHY **********/
 body, button {
@@ -212,16 +219,18 @@ body {
 .tab-list li {
   display: inline-block;
   list-style-type: none;
+  font-size: 20px;
   background-color: #303030;
   border-bottom: 3px solid #858585;
-  font-family: 'Jacques Francois', serif;
+  font-family: 'Quattrocento Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2em;}
 
 .tab-list li a {
   color: #f2f2f2;
   display: block;
-  padding: 3px 10px 3px 10px;}
+  padding: 3px 10px 3px 10px;
+}
 
 
 /********** HOVER STATES **********/
@@ -246,7 +255,8 @@ body {
   display: block;}
 
 .tab-panel p {
-  margin: 20px;}
+  margin: 10px;
+}
 
 
 /*navigation bar*/
@@ -339,23 +349,33 @@ li.dropdown {
       letter-spacing: 3px;
 }
 
+@media screen and (max-width: 600px){
+  nav ul li:not(:first-child) {
+    margin-left: 10px;
+  }
+}
+
+
+
 /*banner*/
 .sporttitle {
-  position: absolute;
-    top: 25%;
-    left: 38%;
-    font-size: 320%;
-    letter-spacing: 6px;
-    color: white;
-    border: 3px solid white;
-    padding: 40px 70px;
-    transition: 0.5s;
-    text-transform: uppercase;
+  align-items: center;
+  font-size: 320%;
+  letter-spacing: 6px;
+  transition: 0.6s;
+  text-transform: uppercase;
+  margin: -250px 0px 220px 0px;
+}
+
+.sporttitle p {
+  text-align: center;
 }
 
 .sporttitle a {
   text-decoration: none;
-color: white;
+  border: 3px solid white;
+  color: white;
+  padding: 30px 60px;
 }
 
 .sporttitle {
