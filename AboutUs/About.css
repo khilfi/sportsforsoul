@@ -85,27 +85,37 @@ img {
 
 @media screen and (max-width: 750px){
   .content{
-    width: 350px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .content{
+    width: 370px;
   }
 }
 
 /*Banner*/
 .sporttitle {
-  position: absolute;
-    top: 25%;
-    left: 38%;
-    font-size: 320%;
-    letter-spacing: 6px;
-    color: white;
-    border: 3px solid white;
-    padding: 40px 70px;
-    transition: 0.5s;
-    text-transform: uppercase;
+  align-items: center;
+  font-size: 320%;
+  letter-spacing: 6px;
+  transition: 0.6s;
+  text-transform: uppercase;
+  margin: -250px 0px 220px 0px;
+
+}
+
+.sporttitle p {
+  text-align: center;
+
 }
 
 .sporttitle a {
   text-decoration: none;
-color: white;
+  border: 3px solid white;
+  color: white;
+  padding: 30px 60px;
 }
 
 .sporttitle {
@@ -251,6 +261,14 @@ li.dropdown {
       text-decoration: none;
       letter-spacing: 3px;
 }
+
+@media screen and (max-width: 600px){
+  nav ul li:not(:first-child) {
+    margin-left: 10px;
+  }
+}
+
+
 
 /*footer*/
 .footer {
@@ -414,6 +432,7 @@ li.dropdown {
   background: linear-gradient(45deg,  #686CDF  0%, #B4B6EE 100%);
 
 }
+
 .team h1{
   text-transform: uppercase;
   margin-bottom: 60px;
@@ -496,6 +515,7 @@ li.dropdown {
 
   font-size: 40px;
   letter-spacing: 4px;
+  line-height: 45px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 50px;
@@ -512,6 +532,7 @@ li.dropdown {
   background: linear-gradient(45deg,  #686CDF  0%, #B4B6EE 100%);
 
 }
+
 .socialmediapics{
   padding-top: 30px;
   padding-bottom: 80px;
@@ -525,11 +546,34 @@ li.dropdown {
 
 .socialmediapics a{
   float: left;
-  margin-left: 17%;
+  width: 33.33%;
 }
 
 .socialmediapics img:hover{
   transform: rotateY(360deg);
+}
+
+@media screen and (max-width: 1100px) {
+    .contactus {
+      width: 100%;
+    }
+
+    .team {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section {
+      width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+  .socialmediapics img {
+    width: 60px;
+  }
 }
 
 .feedback{
