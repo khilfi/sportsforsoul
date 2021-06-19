@@ -1,29 +1,55 @@
 Group name: Fast and curious
 Project name: Sports for soul
 
+link: https://khilfi.github.io/sportsforsoul/Homepage/Homepage.html
+
 Prepared by
-membersMatric NoAHMAD KHILFI BIN ZAINI(LEADER)1723303MOHAMAT NASRI BIN KARUDIN1729731ISSA MAHAMAT ISSA AHMAT1526367TUAN AHMAD BAZZLI B TUAN ABDULLAH1710801
+members
+Matric No
+AHMAD KHILFI BIN ZAINI(LEADER)
+1723303
+MOHAMAT NASRI BIN KARUDIN
+1729731
+ISSA MAHAMAT ISSA AHMAT
+1526367
+TUAN AHMAD BAZZLI B TUAN ABDULLAH
+1710801
+
 
 Sports for soul is a website about three sports Swimming, Archery and Horse riding where the visitor of the website can find all the information needed about the three sports.
 
 Table of group contribution
-NameContributionsFuture enhancementsIssa* About us webpage
+Name
+Contributions
+Future enhancements
+Issa
+* About us webpage
 * Collect information about history, safety and regulation, equipment and fun facts of Horse riding.
-* Feedback webpage* Add javescripts elements to make the website interactive and responsive. 
-* Add navbarNasri* home page.
+* Feedback webpage
+* Add javescripts elements to make the website interactive and responsive. 
+* Add navbar
+Nasri
+* home page.
 * Collect information about swimming.
 * Give instruction to all members on what to do.
-* Design the website.* Use more and better javascripts
+* Design the website.
+* Use more and better javascripts
 * Make More organize code
 * add api
-* Finish the website with the design targetKhilfi
-* add navigation bar* Collect information about archery.
+* Finish the website with the design target
+Khilfi
+* add navigation bar
+* Collect information about archery.
 * Design three sports information page (16 pages).
 * Improve overall design of the page (color, position, etc)
-* add apiBazzli* Collect information about traditional vs modern. 
+* add api
+Bazzli
+* Collect information about traditional vs modern. 
 * Design the FAQ webpage.
-* Create a logo for the website.* Add javascript into the code
-* Add more necessary information into the page
+* Create a logo for the website.
+* Add javascript into the code
+* Add more necessary information into the page
+
 
 References:
 * Horse Riding:
